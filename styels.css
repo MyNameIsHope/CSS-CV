@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+body {
+  background-color: blanchedalmond;
+  color: brown;
+
+  font-size: 16;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+
+  font: normal;
+
+  /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: rgb(2, 17, 12);
+}
+
+.foto {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 700px){
+  .info{
+    display: block;
+    text-align: center;
+  }
+}
+
+.info-text {
+margin-left: 50px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+
+}
+
+/*.info p {
+  color: blueviolet;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;*/
+/* text-transform: uppercase;*/
+
+/*}*/
+
+.container { 
+  max-width: 75%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/*.social {
+background: coral;
+padding: 15px;
+margin: 20px;
+
+
+border: 5px solid blue;
+border-bottom-width: 15px;
+}
+
+
+/*.box-model > div {
+float: left;
+background: black;
+height: 200px;
+border: 4px solid turquoise;
+width: 25%;
+box-sizing: border-box;
+} */
+
+.bg-aqua {
+  background: aqua;
+}
+
+.bg-blue {
+  background: teal;
+  color: black;
+}
+
+.bg-green {
+  background: green;
+  color: #000;
+}
+.bg-pink {
+  background: pink;
+  color: #000;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 2px;
+}
+
+.list {
+  padding: 0px 20px;
+}
+
+.list li {
+  margin-bottom: 15px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+/*.table td:nth-child(1){
+  color: red;
+}*/
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: black;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row{
+  display: flex;
+  margin-bottom: 20px;
+} 
+
+
+.row > .form-group{
+  width: 100px;
+  margin-right: 50px;
+}
+
+/*.position{
+position: relative;
+border: solid  black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+
+}
+
+
+.box{
+  position: fixed;
+  top: 0;
+  bottom: 50%;
+  left: 0; 
+  width: 100%; 
+  height: 50px;
+  background: chartreuse;
+}*/
+
